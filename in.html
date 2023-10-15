@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="in.css">
+    <link rel="icon" href="q1.svg" />
+    <title>myQuotes</title>
+
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="title">Random Quotes</h2>
+            <hr class="line-break">
+
+
+            <div class="quote">
+                <i class="fa-solid fa-quote-left"></i>
+                <p id="quote-text">You only live once, but if you do it right, once is enough.</p>
+                <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <p id="author">Mae West</p>
+
+            <div class="btns">
+                <button type="button" class="btn btn-copy" onclick="copyQuote()">Copy Quote <i class="fa-solid fa-copy"></i> </button>
+                
+                <button type="button" class="btn btn-generate" onclick="generateQuote()">generate Quote <i class="fa-solid fa-repeat"></i> </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="in.js"></script>
+</body>
+</html>
