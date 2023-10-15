@@ -1,1 +1,1 @@
-Live Demo : <a href="quote-generator-puce-three.vercel.app">myQuotes</a>
+Live Demo : <a href="https://quote-generator-samsher-khans-projects.vercel.app/">myQuotes</a>
